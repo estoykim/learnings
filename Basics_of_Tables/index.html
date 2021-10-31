@@ -1,0 +1,190 @@
+<html>
+
+<head>
+  <title>Tables</title>
+</head>
+
+<body>
+  <table cellpadding="10">
+    <th><a href="../index.html">Home</a></th>
+    <th><a href="../Basics_of_Lists/index.html">List</a></th>
+    <th><a href="../Basics_of_Links/index.html">Link</a></th>
+    <th><a href="../Basics_of_Directory/index.html">Directory</a></th>
+    <th><a href="../Basics_of_Images/index.html">Images</a></th>
+    <th><a href="index.html">Tables</a></th>
+    <th><a href="../Basics_of_Forms/index.html">Forms</a></th>
+    <th><a href="../Contact-me/index.html">Contact Me</a></th><br />
+  </table>
+  <h1>Tables</h1>
+  <table>
+    <tr>
+      <th></th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+    </tr>
+    <tr>
+      <th scope="row">Meal</th>
+      <td>P75.00</td>
+      <td>P70.00</td>
+      <td>P50.00</td>
+    </tr>
+  </table>
+  <hr />
+  <table border="1" bgcolor="#DAF7A6" cellpadding="5" width="400">
+    <tr>
+      <th></th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+    </tr>
+    <tr>
+      <th scope="row">7AM</th>
+      <td colspan="2" align="center">Math</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <th scope="row">9AM</th>
+      <td align="center">History</td>
+      <td colspan="2" align="center">Art</td>
+    </tr>
+    <tr>
+      <th scope="row">11AM</th>
+      <td rowspan="2" align="center">Lunch</td>
+      <td rowspan="2" align="center">Lunch</td>
+      <td rowspan="2" align="center">Lunch</td>
+    </tr>
+    <tr>
+      <th scope="row">1PM</th>
+    </tr>
+    <tr>
+      <th scope="row">3PM</th>
+      <td rowspan="2" align="center">Calculus</td>
+      <td align="center">Physics</td>
+      <td rowspan="2" align="center">Physics Lab</td>
+    </tr>
+    <tr>
+      <th scope="row">5PM</th>
+      <td align="center">Humanities</td>
+    </tr>
+  </table>
+  <hr>
+  <table border="1" bgcolor="#DAF7A6" cellpadding="5" width="400">
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">7AM</th>
+        <td colspan="2" align="center">Math</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <th scope="row">9AM</th>
+        <td align="center">History</td>
+        <td colspan="2" align="center">Art</td>
+      </tr>
+      <tr>
+        <th scope="row">11AM</th>
+        <td rowspan="2" align="center">Lunch</td>
+        <td rowspan="2" align="center">Lunch</td>
+        <td rowspan="2" align="center">Lunch</td>
+      </tr>
+      <tr>
+        <th scope="row">1PM</th>
+      </tr>
+      <tr>
+        <th scope="row">3PM</th>
+        <td rowspan="2" align="center">Calculus</td>
+        <td align="center">Physics</td>
+        <td rowspan="2" align="center">Physics Lab</td>
+      </tr>
+      <tr>
+        <th scope="row">5PM</th>
+        <td align="center">Humanities</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>This is a table but separated with <strong>thead,
+      tbody,</strong> and <strong>tfoot</strong> tags in its code.</p>
+  <hr>
+  <h2>Skills</h2>
+  <p>- an example of tabulated list for my skills</p>
+  <table cellpadding="10" border="1">
+    <tr>
+      <th align="left">Electrical Design</th>
+      <td align="left">⭐⭐⭐⭐⭐</td>
+      <th align="left">Illustrator and Logo Design</th>
+      <td align="left">⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <th align="left">AutoCAD Drawing</th>
+      <td align="left">⭐⭐⭐⭐</td>
+      <th align="left">Photo Editing and Manipulation</th>
+      <td align="left">⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <th align="left">Web Development</th>
+      <td align="left">⭐⭐</td>
+      <th align="left">Graphic Design</th>
+      <td align="left">⭐⭐⭐</td>
+    </tr>
+  </table>
+  <hr />
+  <!-- Here is the nested table part. Feel free to analyze it first-->
+  <p>Example of Nested Table - A table within a table</p>
+<table cellspacing="10">
+  <tr>
+    <td>
+      <table cellpadding="10" border="1">
+        <tr>
+          <th align="left">Electrical Design</th>
+          <td align="left">⭐⭐⭐⭐⭐</td>
+          <th align="left">Illustrator and Logo Design</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <th align="left">AutoCAD Drawing</th>
+          <td align="left">⭐⭐⭐⭐</td>
+          <th align="left">Photo Editing and Manipulation</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <th align="left">Web Development</th>
+          <td align="left">⭐⭐</td>
+          <th align="left">Graphic Design</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table cellpadding="10" border="1">
+        <tr>
+          <th align="left">Electrical Design</th>
+          <td align="left">⭐⭐⭐⭐⭐</td>
+          <th align="left">Illustrator and Logo Design</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <th align="left">AutoCAD Drawing</th>
+          <td align="left">⭐⭐⭐⭐</td>
+          <th align="left">Photo Editing and Manipulation</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <th align="left">Web Development</th>
+          <td align="left">⭐⭐</td>
+          <th align="left">Graphic Design</th>
+          <td align="left">⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>

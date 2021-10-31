@@ -1,0 +1,173 @@
+<html>
+
+  <head>
+  <title>Basics of Images in HTML</title>
+
+  </head>
+
+  <body>
+  <table cellpadding="10" id="top">
+       <th><a href="../index.html">Home</a></th>
+       <th><a href="../Basics_of_Lists/index.html">List</a></th>
+       <th><a href="../Basics_of_Links/index.html">Link</a></th>
+       <th><a href="../Basics_of_Directory/index.html">Directory</a></th>
+       <th><a href="index.html">Images</a></th>
+       <th><a href="../Basics_of_Tables/index.html">Tables</a></th>
+       <th><a href="../Basics_of_Forms/index.html">Forms</a></th>
+       <th><a href="../Contact-me/index.html">Contact Me</a></th><br />
+    </table>
+    
+    <h1>Basics of Images in HTML</h1>
+    <p>We will learn how to:</p>
+    <ul>
+      <li>Include an image in your web pages using HTML</li>
+      <li>Pick which image format to use</li>
+      <li>Show an image at the right size</li>
+      <li>Optimize an image for use on the web to make pages load faster</li>
+    </ul>
+    <p>Adding background images can be done using CSS.</p>
+    <hr>
+    <dt>
+      <h2>List of online stock photos</h2>
+    <dd><a href="https://www.istockphoto.com" target="_blank">www.istockphoto.com</a></dd>
+    <dd><a href="https://www.gettyimages.com" target="_blank">www.gettyimages.com</a></dd>
+    <dd><a href="https://www.fotolia.com" target="_blank">www.fotolia.com</a></dd>
+    </dt>
+    <p><b>TIP</b> When creating a webpage, it is a good practice to make a folder for all images used in your website.
+      You can also add sub-folders for each type of images, such as JPEG, PNG, and GIF. </p>
+    <p>To add image, use <em>img</em> element and make sure it has <em>src</em> attribute with correct location
+      for the html file as the value.</p>
+    <hr>
+    <h2>img attributes</h2>
+    <p><b>src</b> - this is to locate the image file you want to appear on your site.
+      You can use <em>relative URLs</em> in locating the image file of your site.</p>
+    <p><b>alt</b> - if the image fails to appear on the website, it is a good customary to
+      use this attribute to descript what's on the image.</p>
+    <p><b>title</b> - use this to put a description on the image. This appears when hovering
+      your mouse on the image.</p>
+    <p><b>height</b> and <b>width</b> - this is to configure the dimensions of your image\
+      on your site. If you want to change it relative to height or width, just assign a value
+      for either height or width only.
+      <hr>
+    <h2>Three Rules for Creating Images</h2>
+    <ol>
+      <li><b>Save images in the right format</b> Browsers only accept image formats in the
+        form of JPEG, GIF, or PNG.
+      <li><b>Save images at the right size</b> Use the correct dimensions when using it on your
+        website. For example, your source image is smaller than the dimensions you set as values
+        on your height/weight attribute, the image on your website will appear as blurry. However,
+        if the source image is larger than your set dimensions, it might load longer on your browser. </p>
+      <li><b>Use the correct resolution</b> Computer screens are made up of dots known as pixels.
+        Images used on the web are also made up of tiny dots. <strong>Resolution</strong> refers to the
+        number of dots per inch (or dpi). Most computer screens only show web pages at <strong>72 pixels</strong>
+        per inch. Therefore, images with higher resolution will load longer.
+    </ol>
+    <hr>
+    <h2>Tools to Edit and Save Images</h2>
+    <p> The most popular is <strong>Adobe Photoshop</strong>.</p>
+    <h3>Other tools for photo editing</h3>
+    <dl>
+      <dd>Adobe Fireworks</dd>
+      <dd>Pixelmator</dd>
+      <dd>PaintShop Pro</dd>
+      <dd>Paint.net</dd>
+    </dl>
+    <h3>Other tools for photo editing online</h3>
+    <dl>
+      <dd><a href="https://www.photoshop.com" target="_blank">www.photoshop.com</a></dd>
+      <dd><a href="https://www.ipiccy.com" target="_blank">www.ipiccy.com</a></dd>
+      <dd><a href="https://www.canva.com" target="_blank">www.canva.com</a></dd>
+    </dl>
+    <hr>
+    <h2>Image Formats</h2>
+    <h3>JPEG (.jpg)</h3>
+    <p>If your picture has different colors, use JPEG. Usually, it is used in photography.
+      For example an overcast sky might not look like it has large areas that are just white or gray, but the picture
+      is usually made up of many different colors that are subtly different.</p>
+    <p>Example of image used for web page in JPEG format</p>
+    <a href="../images/JPEG_sample_picture.jpg" target="_blank"><img src="../images/JPEG_sample_picture.jpg" title="A sample picture as a JPEG format" alt="Image of a scenery." height="200"></a>
+    <h3>PNG (.png) and GIF (.gif)</h3>
+    <p>If you are using flat images, meaning images with less colors, then use PNG or GIF.
+      Logos, illustrations, and infographics are usually called flat images.</p>
+    <p>Example of flat image (or flat design) used for a web page that is in PNG format</p>
+    <a href="../images/flat-design.png" target="_blank"><img src="../images/flat-design.png" title="A sample picture as a PNG format" alt="Flat design" height="200"></a>
+    <hr>
+    <h2>Image Resolution</h2>
+    <p>Images created for the web should be saved at <strong>a resolution of 72 ppi</strong>. The higher the resolution of the image, the lager the size of the file.
+      JPGs, GIFs, and PNGs belong to a type of image format known as <strong>bit map</strong>. They are made up of <strong>resolution</strong> of an image is the number of squares
+      that fit within 1 inch x 1 inch square area.<br>
+    </p>
+    <p>
+      Images appearing on <strong>computer</strong> screens are made of tiny squares called <strong>pixels</strong>. The web browsers on most desktop
+      computers display images at a resolution of <strong>72</strong> pixels per inch (ppi). Images in <strong>print</strong> materials (such as books and magazines)
+      are made up of tiny circles called <strong>dots</strong>. These images are usually printed at a resolution of <strong>300</strong> dots per inch (dpi).<br>
+    </p>
+    <p>
+      Higher resolution is not always a good thing when including in your web pages. Too large of resolution may cause your web page to load longer.<br>
+    </p>
+    <p>
+      <em>Always remember that computers are capped to <strong>72 ppi</strong> display.</em>
+    </p>
+    <a href="../images/low-res-high-res.jpg" target="_blank"><img src="../images/low-res-high-res.jpg" alt="Difference of 300dpi and 72dpi" height="250" title="Hi-Res and Low-Res"></a>
+    <hr>
+    <h2>Vector Images</h2>
+    <p>Vector images differ from <strong>bitmap</strong> images and are resolution-independent. Vector images are commonly created in programs such as
+      Adobe Illustrator.
+    </p>
+    <p>
+      Flat design is a sample of a vector image that is created in Adoble Illustrator.
+    </p>
+    <a href="../images/vector-image.png" target="_blank"><img src="../images/vector-image.png" alt="A sample of a vector image." title="Sample Vector Image" height="200"></a>
+    <hr />
+    <h2>Animated GIFs</h2>
+    <p>
+      These shows several frames of an image in sequence and therefore can be used to create simple animations.
+    </p>
+    <a href="../images/spongebob.gif" target="_blank"><img src="../images/spongebob.gif" alt="A sample of a GIF file." title="Sample GIF File" height="150"></a>
+    <hr />
+    <h2>Figure and Figure Caption</h2>
+    <h3>Figure Element</h3>
+    <p>Usually, images comes with captions. Lately, HTML5 added a new
+    HTML tag which is called the figure element. This element
+    contains images and their caption so that the two are associated.
+    </p>
+    <h3>Figcaption Element</h3>
+    <p>
+    Figcaption element is the element that makes the caption to
+    the image possible. The content of this element contains the
+    caption to the image.
+    </p>
+    <p>Here is the example of <strong>Figure</strong> and <strong>Figcaption</strong> element.</p>
+    <figure>
+       <a href="../images/pikachu-meme.jpg" target="_blank" height="200"><img src="../images/pikachu-meme.jpg" alt="HD Pikachu Meme" title="Pikachu Meme"></a>
+
+       <figcaption><b>Figure:</b> An image of Pikachu Meme in HD.</figcaption>
+    </figure>
+    <p>The figure contains <strong>img element</strong> and if you want,
+       you can also add a direct link for its image source. To do that,
+       you add <strong>a href element</strong> and contain the <strong>img element</strong>.
+    </p>
+    <p>After the figure element, follows the <strong>figcaption element</strong>. This contains the
+       caption for the image.
+    </p>
+    <hr />
+    <h2>Combination of Image Element and Table Element</h2>
+    <table cellspacing="20">
+      <tr>
+        <td><p align="right">
+          <b>Figure:</b> Here's the caption for the picture. Can you believe it?
+          He's an electrical engineer that became famous for his picture. We can
+          align the paragraph to the right by adding align attribute inside the paragraph
+          element.
+        </p>
+        <p align="left">We can also add another paragraph inside a cell if we want to. For practice
+          purposes, we can also align the paragraph to the left. Same with what we did above.
+        Are we good? Great! Now let's join Harold with his coffee.</p></td>
+        <td><a href="../images/hide-the-pain-harold.jpg" target="_blank"><img src="../images/hide-the-pain-harold.jpg" alt="Hide the pain, Harold Meme" title="Hide your pain, Harold!" height="200"></a></td>
+      </tr>
+    </table>
+    <hr>
+    <a href="#top">Bact to top</a>
+  </body>
+
+</html>

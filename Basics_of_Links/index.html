@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <title>All about Link Element</title>
+</head>
+
+<body>
+  <table cellpadding="10">
+    <th><a href="../index.html">Home</a></th>
+    <th><a href="../Basics_of_Lists/index.html">List</a></th>
+    <th><a href="index.html"></a>Link</th>
+    <th><a href="../Basics_of_Directory/index.html">Directory</a></th>
+    <th><a href="../Basics_of_Images/index.html">Images</a></th>
+    <th><a href="../Basics_of_Tables/index.html">Tables</a></th>
+    <th><a href="../Basics_of_Forms/index.html">Forms</a></th>
+    <th><a href="../Contact-me/index.html">Contact Me</a></th><br />
+  </table>
+
+  <h1 id="link">Link Elements</h1>
+  <p>There are four ways to create a link on your webpage</p>
+  <ul>
+    <li>Links from one website to another</li>
+    <li>Links from one page to another on the same website</li>
+    <li>Links from one part of a web page to another part of the same page</li>
+    <li>Links that open in a new browser window</li>
+    <li>Links that start up your email program and address a new email to someone</li>
+  </ul>
+  <h3>Linking to Other Sites</h3>
+  <p>To link to other sites, you use the <strong>a href</strong> tag and use the <abbr type="Universal Resource Locator">URL</abbr> for the link.</p>
+  <p>Social Media
+  <ul type="square">
+    <li><a href="https://www.facebook.com">Facebook</a></li>
+    <li><a href="https://www.instagram.com" type="_blank">Instagram</a></li>
+    <li><a href="https://www.twitter.com">Twitter</a></li>
+    <li><a href="https://www.youtube.com">Youtube</a></li>
+  </ul>
+  </p>
+  <h3>Linking to Other Pages on the Same Site</h3>
+  <p>To link other pages on the same site, use relative URL. Use the name of the text file. If it is inside a folder, for example, the file is inside the image folder, then use /image/index.html to go to your Homepage. It is also called
+    <em>External Links</em>
+  </p>
+  <dl>
+    <dt>Home</dt>
+    <dd>Use "index.html"</dd>
+    <dt>Contact Us</dt>
+    <dd>Use "contact-us.html"</dd>
+  </dl>
+  <h4>Directory Structure</h4>
+  <p>On larger websites it's a good idea to organize your code by placing the pages for each different section of the site into a new folder. Folders on a website are sometimes referred to as directories.</p>
+  <h4>Email Links</h4>
+  <p>Example of a link to an email address</p>
+  <a href="mailto:kimestoy@bec.gmail.com" target="_blank">Email Kim Estoy</a>
+  <h3>Links in a New Window</h3>
+  <p>This links and open a new window. To do that, use <b>target</b> attribute and its value should be "_blank"</p>
+  <ul type="square">
+    <li><a href="https://maps.google.com" target="_blank">Google Maps</a></li>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+  </ul>
+  <p><b>TIP:</b> One of the most common reasons a web page author might want a link to be opened in a new window is <em>if it points to another website</em>. In such cases, they hope the <em>user will return to the window containing their site
+      after finishing looking at the other one</em>.</p>
+  <h3>Linking to a Specific Part of the Same Page</h3>
+  <p> To link to a certain part of your web page. Use <b>id</b> attribute to the header tag and insert appropriate value. To add the value, for example you are at the top of your web page and want to jump to the bottom, put an <em>a href</em> HTML
+    tag first at the TOP and put the value with <b>#</b>, say ="#bottom". Then add a value to the header tag you want to link it to. To do that, put id value of the link and it should be ="bottom". Always remember that the link should have a id
+    attribute value with #.</p>
+  <p> Always remember that a link shoud have an <b>a</b> tag with href attribute, and put id attribute to the header you want to link it to. The value of the href attribute should always have # followed by your preferred link name</p>
+  <a href="#top">Bact to top</a>
+  <hr>
+ </body>
+
+</html>
